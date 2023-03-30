@@ -8,15 +8,28 @@
 import SwiftUI
 
 struct ContentView: View {
+    @StateObject private var model = RequestHandler()
+    
+    private func logIn() {
+        model.send(status: "logged in")
+    }
+
     var body: some View {
-        VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundColor(.accentColor)
-            Text("Hello, world!")
-            Text("trying to test the git version, new commit")
+        List {
+            Text("hey there")
+            ForEach(model.onlineUsers, id: \.self) { user in
+                Text(user)
+            }
+            Button("log in") {
+                logIn()
+            }
         }
-        .padding()
+        .onAppear {
+            model.connect()
+        }
+        .onDisappear {
+            model.disconnect()
+        }
     }
 }
 

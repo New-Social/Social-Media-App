@@ -11,6 +11,8 @@
 		41804E6B29C7BB8100A6E3B0 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41804E6A29C7BB8100A6E3B0 /* ContentView.swift */; };
 		41804E6D29C7BB8100A6E3B0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 41804E6C29C7BB8100A6E3B0 /* Assets.xcassets */; };
 		41804E7029C7BB8100A6E3B0 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 41804E6F29C7BB8100A6E3B0 /* Preview Assets.xcassets */; };
+		41F9A4BA29D6405A00B113CB /* Vapor Requests Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41F9A4B929D6405A00B113CB /* Vapor Requests Model.swift */; };
+		41F9A4BC29D6417300B113CB /* VaporRequestHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41F9A4BB29D6417300B113CB /* VaporRequestHandler.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +21,8 @@
 		41804E6A29C7BB8100A6E3B0 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		41804E6C29C7BB8100A6E3B0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		41804E6F29C7BB8100A6E3B0 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		41F9A4B929D6405A00B113CB /* Vapor Requests Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Vapor Requests Model.swift"; sourceTree = "<group>"; };
+		41F9A4BB29D6417300B113CB /* VaporRequestHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VaporRequestHandler.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +57,7 @@
 			children = (
 				41804E6829C7BB8100A6E3B0 /* Social_Media_App_with_RyanApp.swift */,
 				41804E6A29C7BB8100A6E3B0 /* ContentView.swift */,
+				41F9A4B829D6404600B113CB /* Model */,
 				41804E6C29C7BB8100A6E3B0 /* Assets.xcassets */,
 				41804E6E29C7BB8100A6E3B0 /* Preview Content */,
 			);
@@ -65,6 +70,15 @@
 				41804E6F29C7BB8100A6E3B0 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		41F9A4B829D6404600B113CB /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				41F9A4B929D6405A00B113CB /* Vapor Requests Model.swift */,
+				41F9A4BB29D6417300B113CB /* VaporRequestHandler.swift */,
+			);
+			name = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -138,7 +152,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				41804E6B29C7BB8100A6E3B0 /* ContentView.swift in Sources */,
+				41F9A4BA29D6405A00B113CB /* Vapor Requests Model.swift in Sources */,
 				41804E6929C7BB8100A6E3B0 /* Social_Media_App_with_RyanApp.swift in Sources */,
+				41F9A4BC29D6417300B113CB /* VaporRequestHandler.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -267,7 +283,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"Social Media App with Ryan/Preview Content\"";
-				DEVELOPMENT_TEAM = 89P42BULRY;
+				DEVELOPMENT_TEAM = X622SX6D57;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
@@ -299,7 +315,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"Social Media App with Ryan/Preview Content\"";
-				DEVELOPMENT_TEAM = 89P42BULRY;
+				DEVELOPMENT_TEAM = X622SX6D57;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
